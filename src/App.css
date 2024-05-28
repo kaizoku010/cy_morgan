@@ -1,5 +1,10 @@
 .App {
+  font-size: 1rem;
+  display: flex;
+  line-height: 1.6;
+  place-content: center;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-logo {
@@ -35,4 +40,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+.logo {
+  font-size: 3.75rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* body {
+  font-size: 1rem;
+  line-height: 1.6;
+} */
+
+
+a{
+  text-decoration: none !important;
+}
+
+a:hover{
+  color: rgb(34, 34, 160);
 }

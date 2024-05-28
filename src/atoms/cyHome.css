@@ -1,0 +1,291 @@
+.cy_holder{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cy_page{
+display: flex;
+width: 100%;
+justify-content: space-between;
+flex-direction: column;
+/* background-color: red; */
+}
+
+.upperLayer{
+    height: 90%;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.inner-dx{
+ /* background-color: blue;    */
+ width: 80%;
+ height: 90%;
+ display: flex;
+
+}
+
+.social-media{
+    background-color: #f2f2f2;
+}
+
+.inner-dx-1 {
+    width: 70%;
+    display: flex;
+    /* background-color: black; */
+    height: 100%;
+    flex-direction: column;
+}
+
+.inner-dx-2{
+    width: 40%;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../media/cy_bw.jpg");
+
+}
+
+.ig_ic{
+    width:5%;
+    height:5%
+}
+
+.cy_info{
+    /* padding: 30px; */
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.cy_box{
+    align-content: center;
+    padding: 30px;
+    margin-left: -0.1%;
+    width: 50%;
+    margin-right: 1%;
+    text-align: left;
+}
+
+
+.upper_section{
+    display: flex;
+    /* background-color: blue; */
+    height: 100%;
+}
+.lower_section{
+        /* width: 70%; */
+        display: flex;
+        /* flex-direction: ; */
+        /* background-color: black; */
+        height: 100%;
+}
+
+.logo_section{
+
+}
+
+.social_media_element{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.about-me-title{
+
+}
+
+.about-text{
+
+}
+
+.model_text{
+    font-weight: 100;
+    font-size: 3.75em;
+    margin: -10% 0px 0px 0px !important;
+    font-style: italic;
+}
+
+.logo_text{
+    padding: 0px !important;
+    margin: 0px !important;
+    font-style: italic;
+    font-size: 3.75em;
+    font-weight: 900;
+}
+
+
+
+.cy_img_1{
+      
+    width: 100%;
+    background-repeat: no-repeat;
+    /* height: 415px; */
+    background-position: center;
+    margin: 1%;
+    background-size: cover;
+    background-image: url("../media/cy_bw_smaller.jpg");
+}
+
+.logo_area{
+
+}
+
+.logo_sec{
+    padding: 30px 30px 0px 0px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1%;
+    text-align: left;
+}
+
+.space{
+    width: 100%;
+    height: 100%;
+}
+
+.info-1{
+margin-bottom: -1%;
+font-weight: 300;
+}
+
+.info{
+    margin-top: 1%;
+    margin-bottom: -1%;
+}
+.cy_logo{
+    width: 80% !important;
+}
+
+@media only screen and (max-width: 800px) {
+
+
+    .cy_logo{
+        width: 45% !important;
+        margin-top: 10%;
+    }
+    .upperLayer {
+        height: 100% !important;
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .upper_section {
+        display: flex;
+        height: fit-content;
+        align-items: center;
+        margin-bottom: 1%;
+        margin-top: 5%;
+        flex-direction: column !important;
+    }
+    .inner-dx-1 {
+        width: 100% !important;
+        display: flex;
+        height: fit-content !important;
+        flex-direction: column;
+    }
+
+    
+.lower_section {
+    width: 70%;
+    display: flex;
+    align-self: center;
+    height: 100%;
+    flex-direction: column !important;
+}
+
+/* .logo_area {
+    margin-bottom: 10% !important;
+} */
+
+
+.cy_box {
+    align-content: center;
+    padding: 30px;
+    margin-left: -0.1%;
+    width: 70% !important;
+    margin-top: 1%;
+    margin-right: 1%;
+    text-align: left;
+}
+
+.cy_img_1 {
+    width: 22em;
+    align-self: center;
+    background-repeat: no-repeat;
+    height: 415px;
+    background-position: center;
+    margin: 1%;
+    background-size: cover;
+    background-image: url("../media/cy_bw_smaller.jpg");
+}
+.inner-dx-2 {
+    width: 22em;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-self: center;
+    height: 100em !important;
+    background-image: url("../media/cy_bw.jpg");
+}
+
+.cy_holder {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+}
+
+
+.mobile_logo{
+    display: block !important;
+    align-self: center;
+}
+
+
+.logo_sec_mobile {
+    padding: 0px;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1%;
+
+    /* text-align: left; */
+}
+.logo_sec{
+    display: none;
+}
+
+.model_text {
+    font-weight: 100;
+    font-size: 1.75em;
+    margin: -10% 0px 0px 0px !important;
+    font-style: italic;
+}
+
+.logo_text {
+    padding: 0px !important;
+    margin-top: 10% !important;
+    font-style: italic;
+    font-size: 2.75em;
+    font-weight: 900;
+}
+
+
+}
+/* end of mobile style */
+.mobile_logo{
+    display: none;
+}
+
+.logo_sec_mobile{
+    display: none;
+}
